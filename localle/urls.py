@@ -1,12 +1,10 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 
-from core import views as core_views
-
 urlpatterns = [
-    path('', core_views.index, name='index'),
+    path("", include("core.urls"), name="core-urls"),
     path('admin/', admin.site.urls),
 ]
 
