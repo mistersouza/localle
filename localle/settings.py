@@ -71,9 +71,8 @@ WSGI_APPLICATION = 'localle.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'default':
         dj_database_url.parse(os.environ.get("DATABASE_URL"))
-    }
 }
 
 
