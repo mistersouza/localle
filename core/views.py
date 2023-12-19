@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Views
 def index(request):
-    return HttpResponse('Hello, marketplace')
+    return render(request, 'core/index.html')
