@@ -1,5 +1,13 @@
 {% extends "base.html" %}
-{% block title %}Welcome{% endblock %}
+
+{% block title %}
+{% if request.user.is_authenticated %}
+Welcome {{ user.first_name|title }}
+{% else %}
+Welcome
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <!-- Section-->
 <section class="py-5">
