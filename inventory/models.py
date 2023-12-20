@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 # Models
 class Category(models.Model):
@@ -22,7 +23,7 @@ class Item(models.Model):
     original_price = models.DecimalField(
         decimal_places=2, max_digits=10, null=True, blank=True)
     price = models.DecimalField(decimal_places=2, max_digits=10)
-    image = models.ImageField(upload_to='inventory/', blank=True, null=True)
+    featured_image = CloudinaryField('image', default='placeholder')
     on_sale = models.BooleanField(default=False)
     is_sold = models.BooleanField(default=False)
     stars = models.IntegerField(default=0)
