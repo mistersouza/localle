@@ -1,4 +1,9 @@
 {% load static %}
+<!-- account urls -->
+{% url 'account_login' as login_url %}
+{% url 'account_signup' as signup_url %}
+{% url 'account_logout' as logout_url %}
+<!-- home url -->
 {% url 'home' as home_url %}
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link {% if request.path == home_url %}active{% endif %}" aria-current="page" href="{% url 'home' %}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link {% if request.path == about_url %}active{% endif %}" href="#!">About</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,28 +45,31 @@
                         </li>
                     </ul>
                     <div class="d-flex">
+                        {% if request.user.is_authenticated %}
                         <form class="d-flex align-items-center me-3">
-                            <a href="#" title="Sell stuff" class="btn btn-outline-dark mb-lg-0"
+                            <a href="#!" title="Sell stuff" class="btn btn-outline-dark mb-lg-0"
                                 type="submit">
                                 <i class="fa-solid fa-plus"></i>
                             </a>
                         </form>
                         <form class="d-flex align-items-center me-3">
-                            <a href="#" title="Your store" class="btn btn-outline-dark mb-lg-0"
+                            <a href="#!" title="Your store" class="btn btn-outline-dark mb-lg-0"
                                 type="submit">
                                 <i class="fa-solid fa-store"></i>
                             </a>
                         </form>
                         <form class="d-flex align-items-center me-3">
-                            <a href="#" title="Inbox" class="btn btn-outline-dark mb-lg-0"
+                            <a href="#!" title="Inbox" class="btn btn-outline-dark mb-lg-0"
                                 type="submit">
                                 <i class="fa-solid fa-inbox"></i>
                             </a>
                         </form>
-                        <a href="#" class="btn btn-outline-dark mb-lg-0" type="submit">
+                        {% else %}
+                        <a href="{% url 'account_signup' %}" class="btn btn-outline-dark mb-lg-0" type="submit">
                             Sign up
                             <i class="fa-solid fa-arrow-right-to-bracket"></i>
                         </a>
+                        {% endif %}
                         <form class="d-flex">
                             <button class="btn mb-lg-0" type="submit">
                                 <span class="badge bg-dark text-white ms-1 p-2 rounded-pill">
