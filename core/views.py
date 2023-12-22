@@ -5,8 +5,9 @@ from inventory.models import Category, Item
 
 # Views
 def index(request):
-    items = Item.objects.filter(is_sold=False)[:8]
-    categories = Category.objects.all()
+    # Get newest 8 arrivals
+    items = Item.objects.filter(is_sold=False).order_by('-created_at')[:8]
+    categories = Category.objects.exclude(name='Sale')
 
     context = {
         'title': 'localle ))',
