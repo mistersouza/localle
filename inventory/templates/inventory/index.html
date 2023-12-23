@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block title %}{{ item.name }}{% endblock %}
+{% block content %}
+<!-- Product section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{ item.featured_image.url }}"
+                    alt="{{ item.name }}" /></div>
+            <div class="col-md-6">
+                <div class="mb-1">
+                    {% if item.created_by == request.user %}
+                    <span class="text-uppercase">Own</span>
+                    <a href="http://" title="I'm here for you :)">
+                        <i class="fa-solid fa-pencil fs-5 ms-1"></i>
+                    </a>
+                    {% else %}
+                    <span class="text-uppercase color">{{ item.created_by }}</span>
+                    <a href="#!" title="I'm here for you :)">
+                        <i class="fa-regular fa-comments fs-5 ms-1"></i>
+                    </a>
+                    {% endif %}
+                </div>
+                <h1 class="display-5 fw-bolder">{{ item.name }}</h1>
+                <div class="fs-5 mb-5">
+                    {% if item.on_sale %}
+                    <span class="text-decoration-line-through">${{ item.original_price }}</span>
+                    {% endif %}
+                    <span>${{ item.price }}</span>
+                </div>
+                <p class="lead">{{ item.description }}</p>
+                {% if item.created_by == request.user %}
+                <div class="d-flex">
+                    <a href="#!" class="btn btn-outline-secondary flex-shrink-0"
+                        type="button">
+                        <i class="fa-solid fa-pencil me-1"></i>
+                        Edit
+                    </a>
+                    <a href="#!"
+                        class="btn btn-outline-danger flex-shrink-0 ms-3" type="button">
+                        <i class="fa-solid fa-trash-can me-1"></i>
+                        Delete
+                    </a>
+                </div>
+                {% else %}
+                <div class="d-flex">
+                    <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                        <i class="fa-solid fa-cart-shopping me-1"></i>
+                        Add to cart
+                    </button>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Related items section-->
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5 mt-5">
+        <h2 class="fw-bolder mb-4">
+            {% if related_items %}
+            Related items
+            {% else %}
+            Nothing like it yet
+            {% endif %}
+        </h2>
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            {% for item in related_items %}
+            <div class="col mb-5">
+                <div class="card h-100">
+                    {% if item.on_sale %}
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                    </div>
+                    {% endif %}
+                    <!-- Product image-->
+                    <a href="{% url 'inventory:index' item.id %}">
+                        <img class="card-img-top" src="{{ item.featured_image.url }}" alt="{{ item.name }}" />
+                    </a>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{ item.name }}</h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <!-- Product price-->
+                            {{ item.price }}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center">
+                            <a class="btn btn-outline-dark mt-auto" href="{% url 'inventory:index' item.id %}">View
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
