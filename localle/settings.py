@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'cloudinary',
     'core',
     'inventory',
+    'store',
 ]
 
 SITE_ID = 1
