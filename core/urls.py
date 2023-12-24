@@ -1,7 +1,9 @@
 from django.urls import path
 
-from . import views
+from . import views as core_views
+
+app_name = 'core'
 
 urlpatterns = [
-    path('', views.index, name='home'),
+    path('', core_views.index, name='index'),
 ]

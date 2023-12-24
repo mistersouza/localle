@@ -1,64 +1,37 @@
 {% extends "base.html" %}
+{% load crispy_forms_tags %}
 {% load i18n %}
-{% block head_title %}{% trans "Signup" %}{% endblock head_title %}
-
+{% block title %}{% trans "Signup" %}{% endblock %}
+{% block page_title %}{% trans "Sign up" %}{% endblock %}
 {% block content %}
 <!-- Sign up form -->
-<section class="ftco-section">
-  <div class="container">
-      <div class="row justify-content-center">
-          <div class="col-lg-10">
-              <div class="row">
-                  <div class="col-md-9 col-lg-7">
-                      <div class="contact-wrap w-100 p-md-5 p-4">
-                          <h3 class="text-left">{% trans "Sign Up" %}</h3>
-                      </div>
-                      <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-                          {% csrf_token %}
-                          <div class="row">
-                              <div class="col-md-12 mb-2">
-                                  <div class="form-group">
-                                      <label class='sr-only' for="id_username">{% trans "Username" %}</label>
-                                      {{ form.username }}
-                                  </div>
-                              </div>
-                              <div class="col-md-12 mb-2">
-                                  <div class="form-group">
-                                      <label class='sr-only' for="id_email">{% trans "Email" %}</label>
-                                      {{ form.email }}
-                                  </div>
-                              </div>
-                              <div class="col-md-12 mb-2">
-                                  <div class="form-group">
-                                      <label class='sr-only' for="id_password1">{% trans "Password" %}</label>
-                                      {{ form.password1 }}
-                                      {% for error in form.password1.errors %}
-                                          <p style="color: red">{{ error }}</p>
-                                      {% endfor %}
-                                  </div>
-                              </div>
-                              <div class="col-md-12 mb-2">
-                                  <div class="form-group">
-                                      <label class='sr-only' for="id_password2">{% trans "Repeat Password" %}</label>
-                                      {{ form.password2 }}
-                                  </div>
-                              </div>
-                              {% if redirect_field_value %}
-                                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-                              {% endif %}
-                              <div class="col-md-12">
-                                  <div class="form-group mb-0">
-                                      <button class="btn btn-outline-dark w-50" type="submit">
-                                          Sign Up
-                                      </button>
-                                  </div>
-                              </div>
-                          </div>
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center "> <!-- Center the content -->
+            <div class="col-lg-4"> <!-- Adjust column size for centering -->
+                <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+                    {% csrf_token %}
+                    {% for field in form %}
+                        <div class="form-group">
+                            {% if field.field.widget.input_type != 'checkbox' %}
+                                <label for="{{ field.id_for_label }}" class="sr-only visually-hidden">{{ field.label }}</label>
+                            {% endif %}
+                            {{ field|as_crispy_field }}
+                        </div>
+                    {% endfor %}
+                    <div class="form-group">
+                        <button class="btn btn-outline-dark w-100" type="submit">
+                            Sign Up
+                        </button>
+                    </div>
+                </form>
+                <p class='py-2'>
+                    {% blocktrans %}
+                    Do you already have an account? <a class="link" href="{{ login_url }}">Sign in</a>
+                    {% endblocktrans %}
+                </p>
+            </div>
+        </div>
+    </div>
 </section>
 {% endblock content %}

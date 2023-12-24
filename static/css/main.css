@@ -2,13 +2,6 @@
 
 @import url("account.css");
 
-
-.form-control {
-  border: 1px solid #ced4da;
-  height: calc(2.25rem + 10px);
-  padding: 0.375rem 0.75rem;
-}
-
 /* Custom CSS */
 .custom-row {
   display: flex;

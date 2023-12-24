@@ -15,7 +15,7 @@
     </div>
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2">
-
+            {% block logout_link %}
             <form method="post" action="{% url 'account_logout' %}">
                 {% csrf_token %}
                 {% if redirect_field_value %}
@@ -23,7 +23,7 @@
                 {% endif %}
                 <button class="btn btn-signup right" type="submit">{% trans 'Sign Out' %}</button>
             </form>
-        </div>
+            {% block logout_link %}
     </div>
 </div>
 {% endblock %}

@@ -10,8 +10,8 @@ def index(request):
     categories = Category.objects.exclude(name='Sale')
 
     context = {
-        'title': 'localle ))',
-        'description': 'Neighborhood marketplace',
+        'page_title': 'localle ))',
+        'page_description': 'Your Local Hub Marketplace',
         'items': items,
         'categories': categories,
     }

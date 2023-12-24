@@ -6,7 +6,7 @@ Welcome {{ user.first_name | title }}
 Welcome
 {% endif %}
 {% endblock %}
-
+{% block page_title %}{{ page_title }}{% endblock %}
 {% block content %}
 <!-- Section-->
 <section class="py-5">
@@ -22,14 +22,9 @@ Welcome
                     </div>
                     {% endif %}
                     <!-- Product image-->
-                    <a href="#">
-                        {% if "placeholder" in item.featured_image.url %}
-                        <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                    <a href="{% url 'inventory:index' item_id=item.id %}">
+                        <img class="card-img-top" src="{{ item.featured_image.url }}"
                             alt="placeholder image">
-                        {% else %}
-                        <img class="card-img-top" src=" {{ item.featured_image.url }}"
-                            alt="{{ item.name }}">
-                        {% endif %}
                     </a>
                     <!-- Product details-->
                     <div class="card-body p-4">
@@ -57,27 +52,41 @@ Welcome
             </div>
             {% endfor %}
         </div>
-        <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 justify-content-center">
+    </div>
+</section>
+<!-- Categories-->
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5 mt-5">
+        <h2 class="fw-bolder mb-4">
+            Categories
+        </h2>
+        <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-4 justify-content-center">
             {% for category in categories %}
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 my-4">
                 <div class="card h-100">
                     <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
                         <!-- Category name -->
                         <span class="h5 card-title">{{ category.name }}</h5>
                     </div>
                     <!-- Category image -->
-                    <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top" alt="Dummy image">
-        
+                    <a href="#">
+                        {% if "placeholder" in category.featured_image.url %}
+                        <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                            alt="placeholder image">
+                        {% else %}
+                        <img class="card-img-top" src=" {{ category.featured_image.url }}"
+                            alt="{{ category.name }} image">
+                        {% endif %}
+                    </a>
                     <div class="card-body">
                         <!-- Number of items in the category -->
                         <i class="fa-solid fa-tag"></i>
-                        <span>{{ category.items.count }}</span>
+                        <span>{{ category.items.count }} {{category.name | lower }} items</span>
                     </div>
                 </div>
             </div>
             {% endfor %}
         </div>
-           
     </div>
 </section>
 {% endblock %}
