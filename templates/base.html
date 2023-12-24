@@ -47,7 +47,7 @@
                     <div class="d-flex">
                         {% if request.user.is_authenticated %}
                         <form class="d-flex align-items-center me-3">
-                            <a href="#!" title="Sell stuff" class="btn btn-outline-dark mb-lg-0"
+                            <a href="{% url 'inventory:add_item' %}" title="Sell stuff" class="btn btn-outline-dark mb-lg-0"
                                 type="submit">
                                 <i class="fa-solid fa-plus"></i>
                             </a>
