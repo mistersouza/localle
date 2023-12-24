@@ -36,3 +36,10 @@ def add_item(request):
     }
 
     return render(request, 'inventory/add_item.html', context)
+
+
+@login_required
+def delete_item(request, item_id):
+    item = get_object_or_404(Item, id=item_id, created_by=request.user)
+    item.delete()
+    return redirect('store:index')
