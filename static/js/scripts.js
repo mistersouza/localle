@@ -8,13 +8,8 @@ setTimeout(function() {
 
 // Reset search 
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.querySelector('input[name="search"]');
     const searchForm = document.getElementById('searchForm');
     const searchButton = document.getElementById('searchButton');
-
-    searchInput.addEventListener('search', () => {
-        searchForm.submit();
-    });
 
     searchButton.addEventListener('click', () => {
         const searchTerm = searchInput.value.trim();
