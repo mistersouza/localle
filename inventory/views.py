@@ -1,9 +1,27 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
+from django.db.models import Q
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from .models import Item, Category
 from .forms import AddItemForm, EditItemForm
+
+def all_items(request):
+    categories = Category.objects.all()
+    category_id = int(request.GET.get('category', 0))
+    items = Item.objects.filter(is_sold=False)
+    search = request.GET.get('search', '')
+
+    if search:
+        items = items.filter(Q(name__icontains=search) | Q(description__icontains=search)) 
+
+    context = {
+        'categories': categories,
+        'category_id': category_id,
+        'items': items,
+        'search': search, 
+    }
+    return render(request, 'inventory/all_items.html', context)
 
 # Create your views here.
 def item(request, item_id):
