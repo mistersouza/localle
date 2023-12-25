@@ -1,6 +1,6 @@
 // Remove alert messages after 5 seconds
 setTimeout(function() {
-    var messages = document.querySelectorAll('.alert');
+    let messages = document.querySelectorAll('.alert');
     messages.forEach(function(message) {
         message.remove();
     });
@@ -8,15 +8,10 @@ setTimeout(function() {
 
 // Reset search 
 document.addEventListener('DOMContentLoaded', () => {
-    const searchForm = document.getElementById('searchForm');
-    const searchButton = document.getElementById('searchButton');
+    const searchForm = document.querySelector('#searchForm');
+    const searchInput = document.querySelector('input[name="search"]');
 
-    searchButton.addEventListener('click', () => {
-        const searchTerm = searchInput.value.trim();
-        if (searchTerm) {
-            searchForm.submit();
-        } else {
-            searchInput.focus();
-        }
+    searchInput.addEventListener('input', () => {
+        searchForm.submit();
     });
 });
