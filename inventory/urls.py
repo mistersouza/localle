@@ -1,7 +1,6 @@
 from django.urls import path
 from . import views as inventory_views 
 
-
 app_name = 'inventory'
 
 urlpatterns = [

@@ -2,6 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404
 from inventory.models import Item
 
+
 # Views
 @login_required
 def index(request):
@@ -13,4 +14,4 @@ def index(request):
     else:
         context['items'] = items
 
-    return render(request, 'store/index.html', context); 
+    return render(request, 'store/index.html', context)

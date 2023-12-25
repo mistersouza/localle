@@ -1,7 +1,22 @@
-/*!
-* Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+// Remove alert messages after 5 seconds
+setTimeout(function() {
+    var messages = document.querySelectorAll('.alert');
+    messages.forEach(function(message) {
+        message.remove();
+    });
+}, 5000); 
+
+// Reset search 
+document.addEventListener('DOMContentLoaded', () => {
+    const searchForm = document.getElementById('searchForm');
+    const searchButton = document.getElementById('searchButton');
+
+    searchButton.addEventListener('click', () => {
+        const searchTerm = searchInput.value.trim();
+        if (searchTerm) {
+            searchForm.submit();
+        } else {
+            searchInput.focus();
+        }
+    });
+});

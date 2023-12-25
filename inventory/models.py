@@ -3,6 +3,7 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from cloudinary.models import CloudinaryField
 
+
 # Models
 class Category(models.Model):
     name = models.CharField(max_length=255)
@@ -24,7 +25,10 @@ class Item(models.Model):
     original_price = models.DecimalField(
         decimal_places=2, max_digits=10, null=True, blank=True)
     price = models.DecimalField(decimal_places=2, max_digits=10)
-    featured_image = CloudinaryField('image', default='https://dummyimage.com/450x300/dee2e6/6c757d.jpg')
+    featured_image = CloudinaryField(
+        'image',
+        default='https://dummyimage.com/450x300/dee2e6/6c757d.jpg'
+        )
     on_sale = models.BooleanField(default=False)
     is_sold = models.BooleanField(default=False)
     stars = models.IntegerField(default=0)

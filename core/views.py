@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 from inventory.models import Category, Item
 
+
 # Views
 def index(request):
     # Get newest 8 arrivals

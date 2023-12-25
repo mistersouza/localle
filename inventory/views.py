@@ -6,6 +6,7 @@ from django.shortcuts import render, get_object_or_404, redirect, reverse
 from .models import Item, Category
 from .forms import AddItemForm, EditItemForm
 
+# Views
 def all_items(request):
     categories = Category.objects.all()
     category_id = int(request.GET.get('category', 0))
@@ -23,7 +24,7 @@ def all_items(request):
     }
     return render(request, 'inventory/all_items.html', context)
 
-# Create your views here.
+
 def item(request, item_id):
     item = get_object_or_404(Item, id=item_id)
     related_items = Item.objects.filter(category=item.category, is_sold=False).exclude(
@@ -58,6 +59,7 @@ def add_item(request):
     }
     return render(request, 'inventory/form.html', context)
 
+
 @login_required
 def edit_item(request, item_id):
     item = get_object_or_404(Item, id=item_id, created_by=request.user)
@@ -78,6 +80,7 @@ def edit_item(request, item_id):
         'page_title': 'Edit an item'
     }
     return render(request, 'inventory/form.html', context)
+
 
 @login_required
 def delete_item(request, item_id):
