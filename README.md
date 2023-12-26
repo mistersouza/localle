@@ -15,11 +15,15 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 - JavaScript. Bringing life to elements and making things interactive while supporting the HTML & CSS groove.
 - Python. Powering the brains behind the scenes.
 
-### Storage
+### Framework used and abused
 
-- [Amazon Web Services (AWS)](https://aws.amazon.com) - The home for all our static and media files, securely stored in the digital realm.
+- [Django](https://www.djangoproject.com/). The web wizard behind this project's magic. It's the sleek toolkit that makes building powerful and secure websites a breeze.
+
+### Storage trusted
+
+- [Amazon Web Services (AWS)](https://aws.amazon.com). The home for all our static and media files, securely stored in the digital realm.
 - [Cloudinary](https://cloudinary.com/) - Where media becomes magic. It's our creative hub, transforming images and videos into dazzling web assets.
 
 ### Database
 
-- [ElephantSQL](https://www.elephantsql.com/) - Your database sanctuary, where data roams freely and securely, as robust as an elephant.
+- [ElephantSQL](https://www.elephantsql.com/). Your database sanctuary, where data roams freely and securely, as robust as an elephant.
