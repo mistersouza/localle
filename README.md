@@ -14,3 +14,12 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 - CCSS. Adding that stylish flair to everything you see.
 - JavaScript. Bringing life to elements and making things interactive while supporting the HTML & CSS groove.
 - Python. Powering the brains behind the scenes.
+
+### Storage
+
+- [Amazon Web Services (AWS)](https://aws.amazon.com) - The home for all our static and media files, securely stored in the digital realm.
+- [Cloudinary](https://cloudinary.com/) - Where media becomes magic. It's our creative hub, transforming images and videos into dazzling web assets.
+
+### Database
+
+- [ElephantSQL](https://www.elephantsql.com/) - Your database sanctuary, where data roams freely and securely, as robust as an elephant.
