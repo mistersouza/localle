@@ -44,7 +44,7 @@
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="{% url 'inventory:all_items' %}" class="dropdown-item" href="#!">All Items</a>
+                            <li><a href="{% url 'inventory:all_items' %}" class="dropdown-item">All Items</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
@@ -57,31 +57,31 @@
                 <div class="d-flex">
                     {% if request.user.is_authenticated %}
                     <form class="d-flex align-items-center me-3">
-                        <a href="{% url 'inventory:add_item' %}" title="Sell stuff" class="btn btn-outline-dark mb-lg-0"
+                        <button href="{% url 'inventory:add_item' %}" title="Sell stuff" class="btn btn-outline-dark mb-lg-0"
                             type="submit">
                             <i class="fa-solid fa-plus"></i>
-                        </a>
+                        </button>
                     </form>
                     <form class="d-flex align-items-center me-3">
-                        <a href="{% url 'store:index' %}" title="Your store" class="btn btn-outline-dark mb-lg-0"
+                        <button href="{% url 'store:index' %}" title="Your store" class="btn btn-outline-dark mb-lg-0"
                             type="submit">
                             <i class="fa-solid fa-store"></i>
-                        </a>
+                        </button>
                     </form>
                     <form class="d-flex align-items-center me-3">
-                        <a href="#!" title="Inbox" class="btn btn-outline-dark mb-lg-0" type="submit">
+                        <button href="#!" title="Inbox" class="btn btn-outline-dark mb-lg-0" type="submit">
                             <i class="fa-solid fa-inbox"></i>
-                        </a>
+                        </button>
                     </form>
                     <form class="d-flex align-items-center me-3">
-                        <a href="{{ log_url }}" title="Logout" class="btn btn-outline-dark mb-lg-0" type="submit">
+                        <button href="{{ log_url }}" title="Logout" class="btn btn-outline-dark mb-lg-0" type="submit">
                             <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                        </a>
+                        </button>
                     </form>
                     {% else %}
-                    <a href="{% url 'account_signup' %}" class="btn btn-outline-dark mb-lg-0" type="submit">
+                    <button href="{% url 'account_signup' %}" class="btn btn-outline-dark mb-lg-0" type="submit">
                         <i class="fa-solid fa-user-plus"></i>
-                    </a>
+                    </button>
                     {% endif %}
                     <form class="d-flex">
                         <button class="btn mb-lg-0" type="submit">
@@ -92,8 +92,6 @@
                     </form>
                 </div>
             </div>
-        </div>
-        </div>
         </div>
     </nav>
     <!-- Header-->

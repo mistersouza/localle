@@ -1,20 +1,5 @@
 @charset "UTF-8";
 
-@import url("account.css");
-
-/* Custom CSS */
-.custom-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.custom-row .col-md-4:nth-last-child(-n+3) {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
-
-
 /*!
 * Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
 * Copyright 2013-2023 Start Bootstrap
@@ -26,8 +11,6 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-@import url("account.css");
 
 :root {
   --bs-black: #000;
