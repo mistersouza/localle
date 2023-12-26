@@ -18,6 +18,18 @@ Introducing Localle Marketplace's Game Plan! It's all about rocking our unique v
 
 - Smooth Shopping Vibes: Our mantra? Easy peasy! We're making sure both buyers and sellers have the slickest shopping experience around.
 
+### Who's Our Crew? 🎯
+
+🏬 Local Heroes
+👨‍👩‍👧‍👦 Community Champions
+🛍️ Savvy Shoppers
+📱 Tech Whizzes
+💰 Bargain Hunters
+🚀 Aspiring Entrepreneurs
+👥 Collaboration Wizards
+📰 Trendsetters
+🧐 The Inquisitive Locals
+
 ### Wireframes
 
 ▷ We're all about that sleek vibe with a single font family to keep things clean and seamless. But hey, the future looks spicy! We're diving into custom font territory, backed by loads of UX research, sharper business goals, and some epic partnerships.
