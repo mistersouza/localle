@@ -6,6 +6,20 @@
 
 Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com/)
 
+## Planning & Development
+
+
+### Wireframe
+▷ "Here's the scoop: In this project's first phase, racing against the clock for a snappy MVP, I went with a free template. Why? Well, it's all about nailing those essential features in record time. But wait, that's just the tip of the iceberg! Once we dive into user experience research and bring in more design talent, this project is set to level up big time!"
+
+![Start template]()
+
+### Database 
+
+▷ Check it out—the backstage of our database magic! This diagram reveals the intricate web of connections between our database models. It's a snapshot of simplicity and power. But hey, there's a deeper story to each model. Take a closer peek to unravel their secrets and see how they all come together!
+
+![DBDiagram](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_dbdiagram.png)
+
 ## Tech Stack
 
 ### Languages Spoken Here

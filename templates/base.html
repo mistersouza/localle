@@ -57,29 +57,27 @@
                 <div class="d-flex">
                     {% if request.user.is_authenticated %}
                     <form class="d-flex align-items-center me-3">
-                        <button href="{% url 'inventory:add_item' %}" title="Sell stuff" class="btn btn-outline-dark mb-lg-0"
-                            type="submit">
+                        <a href="{% url 'inventory:add_item' %}" title="Sell stuff" class="btn btn-outline-dark mb-lg-0">
                             <i class="fa-solid fa-plus"></i>
-                        </button>
+                        </a>
                     </form>
                     <form class="d-flex align-items-center me-3">
-                        <button href="{% url 'store:index' %}" title="Your store" class="btn btn-outline-dark mb-lg-0"
-                            type="submit">
+                        <a href="{% url 'store:index' %}" title="Your store" class="btn btn-outline-dark mb-lg-0">
                             <i class="fa-solid fa-store"></i>
-                        </button>
+                        </a>
                     </form>
                     <form class="d-flex align-items-center me-3">
-                        <button href="#!" title="Inbox" class="btn btn-outline-dark mb-lg-0" type="submit">
+                        <a href="#!" title="Inbox" class="btn btn-outline-dark mb-lg-0">
                             <i class="fa-solid fa-inbox"></i>
-                        </button>
+                        </a>
                     </form>
                     <form class="d-flex align-items-center me-3">
-                        <button href="{{ log_url }}" title="Logout" class="btn btn-outline-dark mb-lg-0" type="submit">
+                        <a href="{{ log_url }}" title="Logout" class="btn btn-outline-dark mb-lg-0">
                             <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                        </button>
+                        </a>
                     </form>
                     {% else %}
-                    <button href="{% url 'account_signup' %}" class="btn btn-outline-dark mb-lg-0" type="submit">
+                    <button href="{% url 'account_signup' %}" class="btn btn-outline-dark mb-lg-0">
                         <i class="fa-solid fa-user-plus"></i>
                     </button>
                     {% endif %}
