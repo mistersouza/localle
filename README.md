@@ -34,7 +34,7 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 - [Font Awesome](https://fontawesome.com/). The secret sauce sprinkled across our site, giving every element that visual edge with its array of icons.
 - [Google Fonts](https://fonts.google.com/). Working its magic with the Roboto font family, giving our site that unique typography and unmistakable flair.
 
-## Tools
+## Toolbox Essentials
 
 - [Gitpod](https://www.gitpod.io) - My trusty coding hangout for this project.
 - [Git](https://git-scm.com/) - Keeping things organized with version control.
@@ -46,7 +46,7 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 - [w3 css validator](https://jigsaw.w3.org/) - Keeping my style game sharp and error-free.
 - [jshint](https://jshint.com/) -  Giving my JS code the thumbs-up after testing and validating.
 - [Dead Link Checker](https://www.deadlinkchecker.com/website-dead-link-checker.asp) - Keeping those links alive and kicking.
-- [DBDiagram](https://dbdiagram.io/) - DBDiagram - 
+- [DBDiagram](https://dbdiagram.io/) - The mastermind behind my DB models' cool diagrams.
 
 ## Deployment
 
@@ -103,3 +103,21 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 - Dropped in some super-secret config vars for that behind-the-scenes magic. Check out the cool settings
 ![Config Vars](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_heroku-vars.png?raw=true)
 - Finally hit that deploy button and let the awesomeness unfold
+
+## Credits
+
+▷ Sure, I've been the lone wolf, architecting this whole thing—planning, designing, and coding away. But truth be told, I owe a lot to the squad that's had my back. And you know what? I wouldn't have it any other way. The teamwork vibe in coding is what makes this journey epic, and I'm all about embracing that collaborative spirit. Cheers to coding camaraderie!
+
+### Inpired by
+
+- Code With Stein [ Online Marketplace ](https://youtu.be/ZxMB6Njs3ck?si=PwGJLUVuzSV4XKiB)
+- Code Institute's [I Think Therefore I Blog ](https://github.com/mistersouza/django-blog.git)
+
+### Thanks
+
+- David Calikes, Code Institute Cohort Facilitator.
+  - Positive and Uplifting. David's Always available and boosts my confidence time we chat.
+- Oluwafemi Medale, Code Institute Mentor.
+  - Bugs terminator. He always make times, when there's no time at all.
+- Chat GPT, Mister know it all.
+  - Documenting King. Not always correct, but frequently inspiring.
