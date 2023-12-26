@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*!
 * Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
 * Copyright 2013-2023 Start Bootstrap
@@ -10,9 +11,6 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-@import url("signup.css");
-@import url("contact.css");
 
 :root {
   --bs-black: #000;
