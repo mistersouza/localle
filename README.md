@@ -34,6 +34,20 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 - [Font Awesome](https://fontawesome.com/). The secret sauce sprinkled across our site, giving every element that visual edge with its array of icons.
 - [Google Fonts](https://fonts.google.com/). Working its magic with the Roboto font family, giving our site that unique typography and unmistakable flair.
 
+## Tools
+
+- [Gitpod](https://www.gitpod.io) - My trusty coding hangout for this project.
+- [Git](https://git-scm.com/) - Keeping things organized with version control.
+- [Github](https://github.com/) - Home to my precious code repository.
+- [Heroku](https://dashboard.heroku.com/) - Where my deployed web app finds its cozy home.
+- [Am I Responsive](http://ami.responsivedesign.is/) - My go-to for testing and capturing those sleek web page shots for different devices.
+- [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Testing and fixing, one site glitch at a time.
+- [w3 html validator](https://validator.w3.org/) -Making sure my HTML plays by the rules.
+- [w3 css validator](https://jigsaw.w3.org/) - Keeping my style game sharp and error-free.
+- [jshint](https://jshint.com/) -  Giving my JS code the thumbs-up after testing and validating.
+- [Dead Link Checker](https://www.deadlinkchecker.com/website-dead-link-checker.asp) - Keeping those links alive and kicking.
+- [DBDiagram](https://dbdiagram.io/) - DBDiagram - 
+
 ## Deployment
 
 ### GitPod
