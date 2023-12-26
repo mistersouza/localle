@@ -30,6 +30,18 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 
 ### Libraries
 
--[Bootstrap](https://getbootstrap.com/). The hero behind our site's responsive design, stylish elements, and navbar magic. It comes bundled with essential JS scripts and tooltips, elevating how users interact with the interface
--[Font Awesome](https://fontawesome.com/). The secret sauce sprinkled across our site, giving every element that visual edge with its array of icons.
--[Google Fonts](https://fonts.google.com/). Working its magic with the Roboto font family, giving our site that unique typography and unmistakable flair.
+- [Bootstrap](https://getbootstrap.com/). The hero behind our site's responsive design, stylish elements, and navbar magic.
+- [Font Awesome](https://fontawesome.com/). The secret sauce sprinkled across our site, giving every element that visual edge with its array of icons.
+- [Google Fonts](https://fonts.google.com/). Working its magic with the Roboto font family, giving our site that unique typography and unmistakable flair.
+
+## Deployment
+
+### GitPod
+
+▷ Alright, so the site started cooking in GitPod and then got tossed up into this remote [GitHub repository](https://github.com/mistersouza/localle.git). 
+Here's the secret sauce, the GIT commands that made it all happen:
+
+- **git status** >> It's like peeking into the project's mood board - shows any changes or new stuff.
+- **git add --all** >> The "get ready to party" move - stages files for the big commit.
+- **git commit -m " "** >> The official seal of approval - commits all the files.
+- **git push** >> The grand finale - sends everything to the master branch up there on GitHub. Boom!
