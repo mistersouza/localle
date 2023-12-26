@@ -38,8 +38,41 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 
 ### GitPod
 
-▷ Alright, so the site started cooking in GitPod and then got tossed up into this remote [GitHub repository](https://github.com/mistersouza/localle.git). 
-Here's the secret sauce, the GIT commands that made it all happen:
+▷ Getting your app ready
+
+- Open up your settings.py file 
+    1. Setup databse
+        ```python
+        import dj_database_url
+
+        DATABASES = {
+            'default': dj_database_url.parse("<your Postrgres database URL>")
+        }
+        ```
+    2. Update settings.py in your Django app
+        ```python
+        DEBUG = False
+        ```
+    3. Update Allowed Hosts
+        ```python
+        ALLOWED_HOSTS = ['.herokuapp.com', 'localhost']
+        ```
+- On the CL
+    4. Create a requirements. This file tells Heroku what your app needs to run smoothly.
+        ```bash
+        pip3 freeze --local > requirements.txt
+        ```
+    5. Craft a Procfile. This tells Heroku how to run your app. Think of it as the main instruction manual.
+        ```bash
+        echo web: python app.py > Procfile
+        ```
+    6. Shift models to ElephantSQL.
+        ```bash
+        python3 manage.py makemigrations
+        python3 manage.py migrate
+        ```
+
+▷ The site first brewed up in GitPod and then landed in this remote [GitHub repository](https://github.com/mistersouza/localle.git).And let's talk GIT – the commands that made the magic real.
 
 - **git status** >> It's like peeking into the project's mood board - shows any changes or new stuff.
 - **git add --all** >> The "get ready to party" move - stages files for the big commit.
