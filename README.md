@@ -1,6 +1,6 @@
 # Localle )) Your Local Hub Marketplace
 
-![localle logo](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle%20_%20logo.png?raw=true)
+![localle logo](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle%20_%20logo.png)
 
 ▷ Alright, picture this: Localle is on a mission to amp up your neighborhood vibes! We're kicking things off by building a marketplace where you can connect with your neighbors, support local businesses, and buy or sell cool stuff right from your area. Imagine a hub where the coolest finds and local gems are just a click away. We're on a mission to make your neighborhood the go-to spot for connections, sales, and that awesome community vibe. Join us in this exciting venture as we craft the first step towards an epic neighborhood experience!
 
@@ -8,11 +8,23 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 
 ## Planning & Development
 
+### Wireframes
 
-### Wireframe
-▷ "Here's the scoop: In this project's first phase, racing against the clock for a snappy MVP, I went with a free template. Why? Well, it's all about nailing those essential features in record time. But wait, that's just the tip of the iceberg! Once we dive into user experience research and bring in more design talent, this project is set to level up big time!"
+▷ We're all about that sleek vibe with a single font family to keep things clean and seamless. But hey, the future looks spicy! We're diving into custom font territory, backed by loads of UX research, sharper business goals, and some epic partnerships.
 
-![Start template]()
+Started with a free template to hustle up our MVP launch - gotta nail those must-haves, you know? But hey, that's just phase one! Digging deep into UX research and leveling up with TechLabs training means big things for this project's next chapter.
+
+![Wireframes](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_wireframes.png)
+
+### Color Scheme
+▷ In the initial design phase, we're rocking a grayscale palette to highlight content structure and nail that user experience. Once we've aced the UX research, we're bringing in accent colors to jazz up the design and make user interaction smoother.
+
+![Color Scheme](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_color-scheme.png)
+
+### Typography
+▷ I'm on a mission to level up the site's flair and user experience by picking fonts that perfectly match our design and audience vibe.
+
+![Roboto](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_font.png)
 
 ### Database 
 
@@ -115,7 +127,7 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 - Started fresh on Heroku and gave our app a European vibe.
 - Swiped right for GitHub as our deployment wingman.
 - Dropped in some super-secret config vars for that behind-the-scenes magic. Check out the cool settings
-![Config Vars](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_heroku-vars.png?raw=true)
+![Config Vars](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_heroku-vars.png)
 - Finally hit that deploy button and let the awesomeness unfold
 
 ## Credits
