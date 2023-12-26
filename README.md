@@ -27,3 +27,9 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 ### Database
 
 - [ElephantSQL](https://www.elephantsql.com/). Your database sanctuary, where data roams freely and securely, as robust as an elephant.
+
+### Libraries
+
+-[Bootstrap](https://getbootstrap.com/). The hero behind our site's responsive design, stylish elements, and navbar magic. It comes bundled with essential JS scripts and tooltips, elevating how users interact with the interface
+-[Font Awesome](https://fontawesome.com/). The secret sauce sprinkled across our site, giving every element that visual edge with its array of icons.
+-[Google Fonts](https://fonts.google.com/). Working its magic with the Roboto font family, giving our site that unique typography and unmistakable flair.
