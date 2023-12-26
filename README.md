@@ -10,10 +10,7 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 
 ### Languages Spoken Here
 
-- HTML: The foundation of our web magic.
-- CCSS: Adding that stylish flair to everything you see.
-- JavaScript: Bringing life to elements and making things interactive while supporting the HTML & CSS groove.
-
-- Python & Django: Powering the brains behind the scenes.
-    - OS: Helping us interact with the site smoothly.
-    - allauth: Handling all things authentication.
+- HTML. The foundation of our web magic.
+- CCSS. Adding that stylish flair to everything you see.
+- JavaScript. Bringing life to elements and making things interactive while supporting the HTML & CSS groove.
+- Python. Powering the brains behind the scenes.
