@@ -8,6 +8,16 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
 
 ## Planning & Development
 
+### Business Strategy 🚀
+
+Introducing Localle Marketplace's Game Plan! It's all about rocking our unique vibe and unlocking doors to some serious growth and impact.
+
+- Boosting Local Swagger: Let's amp up our street cred by teaming up with local legends and getting our name out there in the community.
+
+- Community Empowerment: We're all about backing the little guys! Let's create a space where local businesses can thrive together, building a tight-knit community.
+
+- Smooth Shopping Vibes: Our mantra? Easy peasy! We're making sure both buyers and sellers have the slickest shopping experience around.
+
 ### Wireframes
 
 ▷ We're all about that sleek vibe with a single font family to keep things clean and seamless. But hey, the future looks spicy! We're diving into custom font territory, backed by loads of UX research, sharper business goals, and some epic partnerships.
