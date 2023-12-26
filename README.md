@@ -57,6 +57,7 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
         ```python
         ALLOWED_HOSTS = ['.herokuapp.com', 'localhost']
         ```
+
 - On the CL
     4. Create a requirements. This file tells Heroku what your app needs to run smoothly.
         ```bash
@@ -71,6 +72,12 @@ Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com
         python3 manage.py makemigrations
         python3 manage.py migrate
         ```
+- on Heroku
+    7. Started fresh on Heroku and gave our app a European vibe.
+    8. Swiped right for GitHub as our deployment wingman.
+    9. Dropped in some super-secret config vars for that behind-the-scenes magic. Check out the cool settings
+    ![Config Vars](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_heroku-vars.png?raw=true)
+    10. Finally hit that deploy button and let the awesomeness unfold
 
 ▷ The site first brewed up in GitPod and then landed in this remote [GitHub repository](https://github.com/mistersouza/localle.git).And let's talk GIT – the commands that made the magic real.
 
