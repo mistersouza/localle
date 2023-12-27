@@ -3,19 +3,6 @@
 {% block content %}
 <section class="py-5">
     <div class="container px-4 px-lg-5 mt-3">
-        <div class="row justify-content-center mb-5">
-            <div class="col-12 col-md-8 col-lg-5">
-                <form action="{% url 'inventory:all_items' %}" method="get" id="searchForm">
-                    <div class="input-group" style="height: 45px;">
-                        <input type="search" name='search' value="{{ search }}" class="form-control border-dark h-100"
-                            placeholder="Scavenge away..." aria-label="Search" aria-describedby="searchButton">
-                        <button class="btn btn-outline-dark h-100" type="submit" id="searchButton">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
         <div class="row d-flex justify-content-center mb-5">
             <div class="col-12 col-md-8 col-lg-5">
                 <ul class="list-inline d-flex justify-content-center">
