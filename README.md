@@ -84,11 +84,21 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ![Roboto](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_font.png)
 
-## Features
+## Up Next: What's in Store!
 
 ▷ Hey, listen up! We're all about making waves in the community and doing it right. We focused on the essentials, cherry-picking the must-haves that match most needs to get our MVP out the door on time.
 
-### Database 
+### Access Granted: Let's Dive In
+
+- Alright, here's the backstage pass: We're rocking the show with allauth for login/register magic.
+- we've got these cool decorators—making sure the right folks access the right stuff on the site. 
+- And hey, we've sprinkled some magic in the HTML to make your user journey feel just right. It's all about that personal touch!
+![Navbar - loggedin](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-in.png)
+![Navbar - loggedout](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-out.png)
+
+## Coming Soon: The Cool Features!
+
+### Inside the Data Universe 
 
 ▷ Check it out—the backstage of our database magic! This diagram reveals the intricate web of connections between our database models. It's a snapshot of simplicity and power. But hey, there's a deeper story to each model. Take a closer peek to unravel their secrets and see how they all come together!
 
