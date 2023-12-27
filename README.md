@@ -20,15 +20,17 @@ Introducing Localle Marketplace's Game Plan! It's all about rocking our unique v
 
 ### Who's Our Crew? 🎯
 
-🏬 Local Heroes
-👨‍👩‍👧‍👦 Community Champions
-🛍️ Savvy Shoppers
-📱 Tech Whizzes
-💰 Bargain Hunters
-🚀 Aspiring Entrepreneurs
-👥 Collaboration Wizards
-📰 Trendsetters
+🏬 Local Heroes  
+👨‍👩‍👧‍👦 Community Champions  
+🛍️ Savvy Shoppers  
+📱 Tech Whizzes  
+💰 Bargain Hunters  
+🚀 Aspiring Entrepreneurs  
+👥 Collaboration Wizards  
+📰 Trendsetters  
 🧐 The Inquisitive Locals
+
+### User Stories
 
 ### Wireframes
 
@@ -39,12 +41,14 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 ![Wireframes](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_wireframes.png)
 
 ### Color Scheme
+
 ▷ In the initial design phase, we're rocking a grayscale palette to highlight content structure and nail that user experience. Once we've aced the UX research, we're bringing in accent colors to jazz up the design and make user interaction smoother.
 
 ![Color Scheme](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_color-scheme.png)
 
 ### Typography
-▷ I'm on a mission to level up the site's flair and user experience by picking fonts that perfectly match our design and audience vibe.
+
+▷ Right now, we're rolling with Robobo's sassiness, but I'm on a mission to amp up our site's style and user experience. I'm diving into font choices that vibe perfectly with our design and audience.
 
 ![Roboto](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_font.png)
 
