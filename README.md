@@ -120,6 +120,8 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 All items page's packed with cool features like a navigation bar, a search function, and a bunch of trendy products displayed with images and prices. Plus, there are different categories like "Fancy," "Popular," "Sale," and "Special" to help you find just what you're looking for. 
 
+![All Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_items.png)
+
 ### Access Granted: Let's Dive In
 
 - Alright, here's the backstage pass: We're rocking the show with allauth for login/register magic.
