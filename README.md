@@ -86,6 +86,26 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ## Up Next: What's in Store!
 
+### Across the Whole Site
+
+- Navbar
+
+    - __Navigation:__ A slick Bootstrap navbar that folds neatly on different screens, making navigation a breeze.
+    - __Menus:__ Home, About, and Shop are neatly laid out, with cool dropdowns for All Items, Popular Picks, and New Arrivals in the Shop section.
+    - __User-Friendly Touch:__ It's got your back! Depending on whether you're logged in or not, it shows just what you need—add items, run your store, or a friendly nudge to sign up.
+    - __One-Click Wonders:__ Quick buttons for the pros! Add items, run your store, peek into your inbox, or simply wave goodbye—all at the click of an icon.
+    - __Cart at a Glance:__ Oh, and that cart? It's right there, visible and ready to go, for those bigger screens. Shopping made easy!
+
+- Hero
+
+    - __Header Display:__ A dark-themed header section with padding and margin adjustments for styling purposes.
+    - __Conditional Content:__ Depending on the page path, it dynamically adjusts content:
+    - __Search Bar:__ On the '/inventory/all-items/' page, a search form is displayed. It includes an input field for search queries and a button to submit the search.
+    - __Page Title:__ For other pages, a centered title and a brief description are shown in white text. The title and description can be customized using template blocks.
+
+- Footer
+    - A standard footer section with dark background styling and padding to ensure visual consistency.
+
 ▷ Hey, listen up! We're all about making waves in the community and doing it right. We focused on the essentials, cherry-picking the must-haves that match most needs to get our MVP out the door on time.
 
 ### Access Granted: Let's Dive In
