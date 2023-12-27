@@ -32,6 +32,38 @@ Introducing Localle Marketplace's Game Plan! It's all about rocking our unique v
 
 ### User Stories
 
+▷ These user stories, requirements, and features? They're the plot twists in our website's grand narrative, guaranteeing a wild ride for our incredible users. And that's not all! We're just getting started. As our user squad grows, we'll keep weaving in more tales to keep the adventure alive and kicking.
+
+- __User Registration:__ As a new user, I want to sign up easily using my email or social media accounts to access Localle's features quickly.
+
+- __Product Listing:__ As a seller, I want a straightforward process to list my items with high-quality images and relevant details to attract potential buyers.
+
+- __Search Functionality:__ As a user, I want a robust search feature to find specific items easily based on categories, keywords, and filters.
+
+- __Secure Payment:__ As a buyer, I want a secure payment gateway integrated into the platform to make transactions confidently.
+
+- __User Profiles:__ As a user, I want to create and manage my profile with options to view my purchase history, saved items, and track ongoing transactions.
+
+- __Real-Time Notifications:__ As a user, I want instant notifications for order updates, new messages, and promotions to stay engaged and informed.
+
+- __Review and Ratings:__ As a buyer, I want the ability to rate and review sellers based on my experience to aid others in making informed decisions.
+
+- __Responsive Design:__ As a user, I expect a seamless experience across various devices, ensuring the platform is accessible and functional from anywhere.
+
+- __Seller Dashboard:__ As a seller, I need a comprehensive dashboard to monitor sales, track inventory, and manage listings efficiently.
+
+- __Feedback Mechanism:__ As a user, I want an easy way to provide feedback or report issues, ensuring continuous improvement of the platform.
+
+- __Geolocation Services:__ As a user, I want to discover local sellers or items nearby, leveraging geolocation features for a personalized experience.
+
+- __Wishlist and Favorites:__ As a user, I want to curate a wishlist or favorite items to revisit and purchase later without searching again.
+
+- __Integration with Social Media:__ As a user, I want to share my favorite finds or purchases on social media platforms directly from Localle.
+
+- __Seller Verification:__ As a buyer, I want sellers to be verified to ensure authenticity and credibility of listed products.
+
+- __Customer Support:__ As a user, I need access to responsive customer support channels, like live chat or email, for quick issue resolution or inquiries.
+
 ### Wireframes
 
 ▷ We're all about that sleek vibe with a single font family to keep things clean and seamless. But hey, the future looks spicy! We're diving into custom font territory, backed by loads of UX research, sharper business goals, and some epic partnerships.
