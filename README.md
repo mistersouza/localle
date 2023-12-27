@@ -124,20 +124,36 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ### The devil's in the details
 
-▷ Get hyped for the Product Section—it's the main event! Decked out with product cards that flaunt it all: killer images, prices, and that "add to cart" urge. Then, shift gears to the Related Items Section, where cards featuring jeans, a vintage telephone, and a stylish tee steal the spotlight. Plus, catch the sale badges—they're game-changers!
+▷ Get ready for the Product Section—it's the star of the show! Packed with product cards showcasing top-notch images, prices, and the irresistible "add to cart" button (still baking). And when you're logged in, revel in the editing and delete functionalities. Switch gears to the Related Items Section for captivating cards highlighting jeans, a retro telephone, and a trendy tee. Keep an eye out for those sale badges—total AF. 
 
 ![Item detail](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_item.png)
+
+### Selling Swagger with Secure CRUD
+
+- __Add Item (Authenticated Sellers Only):__ Welcome to the selling floor! Only authorized sellers get access here. Upload your goods using the "Sell an item" page. Snap a pic, fill in the details, and voila! You've got an item up for grabs. We're talking images, descriptions—the works.
+- __Edit Item (Owner Access Only):__ Want to switch things up? Hit up the "Edit an item" section, but remember, only the rightful owner can access this zone. Tweak, refine, or completely overhaul your product details. It's like remodeling your storefront—slick and seamless.
+
+![localle Adding and Editing](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_CRUD.png)
+
+- __Delete Item (Owner Privilege Required):__ Change your mind or spot something off? No sweat! Head over to the "Delete" zone, but be warned—only the item's original owner can make it vanish. Confirm, and bam! The item's out of your inventory. It's your space, so you're in control of your shop's destiny.
 
 ### Access Granted: Let's Dive In
 
 - Alright, here's the backstage pass: We're rocking the show with allauth for login/register magic.
 - we've got these cool decorators—making sure the right folks access the right stuff on the site. 
 - And hey, we've sprinkled some magic in the HTML to make your user journey feel just right. It's all about that personal touch!
+
 ![Navbar - loggedin](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-in.png)
 ![Navbar - loggedout](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-out.png)
 
+### If it's yours, go wild—CRUD it however you like
+
 ## Coming Soon: The Cool Features!
 
+About page
+
+cart
+payment
 ### Inside the Data Universe 
 
 ▷ Check it out—the backstage of our database magic! This diagram reveals the intricate web of connections between our database models. It's a snapshot of simplicity and power. But hey, there's a deeper story to each model. Take a closer peek to unravel their secrets and see how they all come together!
