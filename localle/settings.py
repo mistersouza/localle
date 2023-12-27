@@ -101,22 +101,13 @@ CSRF_TRUSTED_ORIGINS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.\
-            UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.\
-            MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.\
-            CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.\
-            NumericPasswordValidator',
-    },
+    {'NAME': validator}
+    for validator in [
+        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'django.contrib.auth.password_validation.NumericPasswordValidator',
+    ]
 ]
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'

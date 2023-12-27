@@ -84,6 +84,10 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ![Roboto](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_font.png)
 
+## Features
+
+▷ Hey, listen up! We're all about making waves in the community and doing it right. We focused on the essentials, cherry-picking the must-haves that match most needs to get our MVP out the door on time.
+
 ### Database 
 
 ▷ Check it out—the backstage of our database magic! This diagram reveals the intricate web of connections between our database models. It's a snapshot of simplicity and power. But hey, there's a deeper story to each model. Take a closer peek to unravel their secrets and see how they all come together!

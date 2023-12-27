@@ -69,7 +69,7 @@ Welcome
                         <span class="h5 card-title">{{ category.name }}</span>
                     </div>
                     <!-- Category image -->
-                    <a href="#">
+                    <a href="{% url 'inventory:all_items' %}?category={{ category.id }}">
                         {% if "placeholder" in category.featured_image.url %}
                         <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
                             alt="placeholder image">

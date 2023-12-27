@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row justify-content-center "> <!-- Center the content -->
             <div class="col-lg-4"> <!-- Adjust column size for centering -->
-                <form method="POST" action="." enctype="multipart/form-data" id="newItemForm"
+                <form method="POST" enctype="multipart/form-data" id="itemForm"
                     name="newItemForm" class="form">
                     {% csrf_token %}
                     {{ form | crispy }}

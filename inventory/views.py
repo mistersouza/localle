@@ -13,6 +13,9 @@ def all_items(request):
     items = Item.objects.filter(is_sold=False)
     search = request.GET.get('search', '')
 
+    if category_id:
+        items = items.filter(category=category_id)
+
     if search:
         items = items.filter(Q(name__icontains=search) | Q(description__icontains=search)) 
 
@@ -70,7 +73,7 @@ def edit_item(request, item_id):
             print("Valid form")
             form.save()
             messages.success(request, 'Item updated successfully')
-            return redirect('inventory:index')
+            return redirect('inventory:index', item_id=item.id)
         else:
             print(form.errors.as_data() if isinstance(form.errors, ErrorList) else form.errors)
     else:
