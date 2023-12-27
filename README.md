@@ -116,11 +116,17 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ![Navbar dropdown](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_navbar-dropdown.png)
 
-## All items
+### All items
 
-All items page's packed with cool features like a navigation bar, a search function, and a bunch of trendy products displayed with images and prices. Plus, there are different categories like "Fancy," "Popular," "Sale," and "Special" to help you find just what you're looking for. 
+▷ All items page's packed with cool features like a navigation bar, a search function, and a bunch of trendy products displayed with images and prices. Plus, there are different categories like "Fancy," "Popular," "Sale," and "Special" to help you find just what you're looking for. 
 
 ![All Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_items.png)
+
+### The devil's in the details
+
+▷ Get hyped for the Product Section—it's the main event! Decked out with product cards that flaunt it all: killer images, prices, and that "add to cart" urge. Then, shift gears to the Related Items Section, where cards featuring jeans, a vintage telephone, and a stylish tee steal the spotlight. Plus, catch the sale badges—they're game-changers!
+
+![Item detail](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_item.png)
 
 ### Access Granted: Let's Dive In
 
