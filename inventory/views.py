@@ -51,7 +51,7 @@ def add_item(request):
             item.created_by = request.user
             item.save()
             messages.success(request, 'Item added')
-            return redirect('inventory:index')
+            return redirect('inventory:index', item_id=item.id)
         else: 
             messages.error(request, 'Something\'s gone wrong.')
     

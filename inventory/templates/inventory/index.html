@@ -44,16 +44,31 @@
                 <p class="lead">{{ item.description }}</p>
                 {% if item.created_by == request.user %}
                 <div class="d-flex">
-                    <a href="{% url 'inventory:edit_item' item.id %}" class="btn btn-outline-secondary flex-shrink-0"
+                    <a  id="editButton"
+                        href="{% url 'inventory:edit_item' item.id %}" 
+                        class="btn btn-outline-secondary flex-shrink-0"
                         type="button">
                         <i class="fa-solid fa-pencil me-1"></i>
                         Edit
                     </a>
-                    <a href="{% url 'inventory:delete_item' item.id %}"
-                        class="btn btn-outline-danger flex-shrink-0 ms-3" type="button">
+                    <a  id="cancelButton"
+                        class="btn btn-outline-secondary flex-shrink-0 d-none"
+                        type="button"
+                        onclick="resetButtons()"
+                    >
+                        <i class="fa-solid fa-ban"></i>
+                        Cancel
+                    </a>
+                    <a
+                        id="deleteButton"
+                        class="btn btn-outline-danger flex-shrink-0 ms-3"
+                        type="button"
+                        onclick="toggleDeleteConfirmation()"
+                    >
                         <i class="fa-solid fa-trash-can me-1"></i>
                         Delete
                     </a>
+                    <a id='deleteLink' href="{% url 'inventory:delete_item' item.id %}" class="d-none"></a>
                 </div>
                 {% else %}
                 <div class="d-flex">
@@ -119,5 +134,4 @@
             {% endfor %}
         </div>
     </div>
-</section>
 {% endblock %}
