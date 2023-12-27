@@ -97,6 +97,8 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
     - __One-Click Wonders:__ Quick buttons for the pros! Add items, run your store, peek into your inbox, or simply wave goodbye—all at the click of an icon.
     - __Cart at a Glance:__ Oh, and that cart? It's right there, visible and ready to go, for those bigger screens. Shopping made easy!
 
+![Navbar dropdown](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_home.png)
+
 - Hero
     - __Header Display:__ A dark-themed header section with padding and margin adjustments for styling purposes.
     - __Conditional Content:__ Depending on the page path, it dynamically adjusts content:
@@ -110,7 +112,7 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ▷ The Localle homepage welcomes you with a stylish flair and a touch of functionality! The design embodies a clean, crisp aesthetic while promising a bustling marketplace experience. This digital hub invites you with a bold "localle ))" header, hinting at the local treasures you're about to explore. Featuring an assortment of products, from telephones to iMacs, each neatly displayed with vibrant images and concise details, it's a snapshot of what's in store. Categories like "Fancy" and "Special" beckon exploration, teasing unique offerings. As you scroll through this vibrant page, you'll encounter a seamless blend of style and substance, a sneak peek into the vibrant world of Localle. And don't miss the cart icon, a subtle reminder that your purchases are just a click away.
 
-![Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_home.png)
+![Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_navbar-dropdown.png)
 
 ### Access Granted: Let's Dive In
 
