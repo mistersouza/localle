@@ -208,10 +208,26 @@
     <!-- Header-->
     <header class="bg-dark py-5">
         <div class="container px-4 px-lg-5 my-5">
+            {% if request.path == '/inventory/all-items/' %}
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 col-md-8 col-lg-5">
+                    <form action="{% url 'inventory:all_items' %}" method="get" id="searchForm">
+                        <div class="input-group" style="height: 45px;">
+                            <input type="search" name='search' value="{{ search }}" class="form-control h-100"
+                                placeholder="Scavenge away..." aria-label="Search" aria-describedby="searchButton">
+                            <button class="btn h-100 bg-white border border-left-dark" type="submit" id="searchButton">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            {% else %}
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">{% block page_title %}{% endblock %}</h1>
                 <p class="lead fw-normal text-white-50 mb-0">{{ page_description }}</p>
             </div>
+            {% endif %}
         </div>
     </header>
     <main>
