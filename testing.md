@@ -33,6 +33,24 @@ Test Results CSS ==FAIL==
 | Google Chrome | All pages, load as expected. All features work as expected | ✅ | God bless Bootstrap |
 | Firefox | All pages, load as expected. All features work as expected | ✅ | Amen |
 
+
+## What's Lighthouse gotta say about 
+
+▷ Struggling to wrangle Cloudinary into serving up media that fits all screens perfectly. It's a battle, but I'm digging in! No giving up here
+
+|Page|Validator|Result|
+| --- | --- | --- |
+| Home |![home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-lighthouse-home.png) | ⚠️ |
+| All Items |![Items](https://github.com/mistersouza/localle/blob/main/static/assets/imageslocalle_validator-lighthouse-items.png/) | ⚠️ |
+| Item |![Item](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-lighthouse-item.png) | ⚠️ |
+| Sign up |![Sign up](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-lighthouse-signup.png) | ✅ |
+| Login |![Sign up](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-lighthouse-login.png) | ✅ |
+
+|Page|Validator|Result|
+| --- | --- | --- |
+| Home Desktop |![home](./assets/testing/lighthouse/home-d.PNG) | <mark>PASS<mark> |
+| Home Mobile |![home](./assets/testing/lighthouse/home-m.PNG) | <mark>PASS<mark> |
+
 ## Manual Testing
 
 - Home Page 
