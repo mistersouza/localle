@@ -190,7 +190,8 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ## Testing
 
-All the tests in one [place]()
+All the tests in one [place](testing.md)
+
 
 ## Tech Stack
 
