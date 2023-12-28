@@ -105,8 +105,8 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
     - __Search Bar:__ On the '/inventory/all-items/' page, a search form is displayed. It includes an input field for search queries and a button to submit the search.
     - __Page Title:__ For other pages, a centered title and a brief description are shown in white text. The title and description can be customized using template blocks.
 
-![Hero, Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-home)
-![Hero, Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-items)
+![Hero - Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-home.png)
+![Hero - Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-items.png)
 
 - Footer
     - A standard footer section with dark background styling and padding to ensure visual consistency.
@@ -149,6 +149,27 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 ![Navbar - loggedin](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-in.png)
 ![Navbar - loggedout](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-out.png)
 
+## Django Squad: Apps & Cool Stuf
+
+▷ Alright, localle )) is a cool mix of three Django applications:
+
+- __core:__ The heart of it all
+- __inventory:__ Stocked and loaded
+- __store:__ Your one-stop shop
+
+▷ And to make this awesome ride even smoother, we've got some handy Django packages on board:
+
+- __crispy_forms:__ Making forms stylish
+- __crispy_bootstrap5:__ Styled and Crunchy
+- __cloudinary__ Where all the good stuff is stored
+- __allauth:__ All authentication, all the time
+
+## Inside the Data Universe 
+
+▷ Check it out—the backstage of our database magic! This diagram reveals the intricate web of connections between our database models. It's a snapshot of simplicity and power. But hey, there's a deeper story to each model. Take a closer peek to unravel their secrets and see how they all come together!
+
+![DBDiagram](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_dbdiagram.png)
+
 ## Coming Soon: The Cool Features!
 
 ▷ We're cooking up some cool stuff! Currently in the code lab, we've got some features brewing as we speak. And that's not all! Our UX exploration is uncovering needs and desires, fueling the fire for even more awesome things to come. Right now, our focus is on bringing to life:
@@ -160,12 +181,6 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 - __Reviews:__ Share your thoughts! Leave detailed reviews to help others make informed decisions about the products they're eyeing.
 - __Cart:__ Shopping made easy! Your virtual cart will be your buddy for collecting and managing the items you're eager to take home.
 - __Payment:__ Say hello to convenience! We're ramping up for seamless and secure payment options to make your checkout process a breeze.
-
-### Inside the Data Universe 
-
-▷ Check it out—the backstage of our database magic! This diagram reveals the intricate web of connections between our database models. It's a snapshot of simplicity and power. But hey, there's a deeper story to each model. Take a closer peek to unravel their secrets and see how they all come together!
-
-![DBDiagram](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_dbdiagram.png)
 
 ## Tech Stack
 
