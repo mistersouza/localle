@@ -182,6 +182,10 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 - __Cart:__ Shopping made easy! Your virtual cart will be your buddy for collecting and managing the items you're eager to take home.
 - __Payment:__ Say hello to convenience! We're ramping up for seamless and secure payment options to make your checkout process a breeze.
 
+## Testing
+
+All the tests in one [place]()
+
 ## Tech Stack
 
 ### Languages Spoken Here
