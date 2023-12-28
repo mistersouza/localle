@@ -26,7 +26,15 @@ Test Results CSS  <mark>FAIL<mark>
 
 ![Validate JavaScript](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-js.png)
 
+## Browser Friends
+
+|Browser|Result|Pass/Fail|Notes|
+| --- | --- | --- | ---|
+| Google Chrome | All pages, load as expected. All features work as expected | PASS | God bless Bootstrap |
+| Firefox | All pages, load as expected. All features work as expected | PASS | Amen |
+
 ## Manual Testing
+
 - Home Page 
 
 |Section|Test Action|Expected Result|Pass/Fail|Comments|
