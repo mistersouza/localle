@@ -7,22 +7,22 @@ Back to [README.md](/README.md)
 ### HTML
 |Page|Validator|Result|
 | --- | --- | --- |
-| Home |![home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-home.png) | <mark>✅<mark> |
-| All Items |![All items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validador-html-items.png) | <mark>✅<mark> |
-| Item |![Item](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-item.png) | <mark>✅<mark> |
-| Add & Edit Item |![Create Listing](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-add.png) | <mark>✅<mark> |
-| Log In |![Log In](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-login.png) | <mark>✅<mark> |
-| Sign Up |![Sign Up](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-signup.png) | <mark>✅<mark> |
+| Home |![home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-home.png) | ✅ |
+| All Items |![All items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validador-html-items.png) | ✅ |
+| Item |![Item](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-item.png) | ✅ |
+| Add & Edit Item |![Create Listing](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-add.png) | ✅ |
+| Log In |![Log In](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-login.png) | ✅ |
+| Sign Up |![Sign Up](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-signup.png) | ✅ |
 
 ### CSS
 
 ▷ While the live site's running smooth without any noticeable glitches, I'm wrestling with Bootstrap 5 variables to make them play nice with the CSS validation engine. It's a bit of a challenge, but I'm diving in to crack the code
 
-Test Results CSS  <mark>FAIL<mark>
+Test Results CSS ==FAIL==
 
 ### JavaScript
 
-- script.js <mark>PASS<mark> 
+- script.js ✅
 
 ![Validate JavaScript](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-js.png)
 
@@ -30,8 +30,8 @@ Test Results CSS  <mark>FAIL<mark>
 
 |Browser|Result|Pass/Fail|Notes|
 | --- | --- | --- | ---|
-| Google Chrome | All pages, load as expected. All features work as expected | PASS | God bless Bootstrap |
-| Firefox | All pages, load as expected. All features work as expected | PASS | Amen |
+| Google Chrome | All pages, load as expected. All features work as expected | ✅ | God bless Bootstrap |
+| Firefox | All pages, load as expected. All features work as expected | ✅ | Amen |
 
 ## Manual Testing
 
