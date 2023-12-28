@@ -128,14 +128,16 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ![Item detail](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_item.png)
 
-### Selling Swagger with Secure CRUD
+### If it's yours, go wild—CRUD it however you like
 
 - __Add Item (Authenticated Sellers Only):__ Welcome to the selling floor! Only authorized sellers get access here. Upload your goods using the "Sell an item" page. Snap a pic, fill in the details, and voila! You've got an item up for grabs. We're talking images, descriptions—the works.
 - __Edit Item (Owner Access Only):__ Want to switch things up? Hit up the "Edit an item" section, but remember, only the rightful owner can access this zone. Tweak, refine, or completely overhaul your product details. It's like remodeling your storefront—slick and seamless.
 
-![localle Adding and Editing](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_CRUD.png)
+![Adding and Editing](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_CRUD.png)
 
-- __Delete Item (Owner Privilege Required):__ Change your mind or spot something off? No sweat! Head over to the "Delete" zone, but be warned—only the item's original owner can make it vanish. Confirm, and bam! The item's out of your inventory. It's your space, so you're in control of your shop's destiny.
+- __Delete Item (Owner Privilege Required):__ Change your mind or spot something off? No sweat! Head over to the "Delete" zone, but be warned—only the item's original owner can make it vanish. Confirm (check out the delete toggle swtich), and bam! The item's out of your inventory. It's your space, so you're in control of your shop's destiny.
+
+![Deleting](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_CRUD-delete.png)
 
 ### Access Granted: Let's Dive In
 
@@ -146,14 +148,13 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 ![Navbar - loggedin](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-in.png)
 ![Navbar - loggedout](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_auth-out.png)
 
-### If it's yours, go wild—CRUD it however you like
-
 ## Coming Soon: The Cool Features!
 
 About page
-
+star reviews
 cart
 payment
+
 ### Inside the Data Universe 
 
 ▷ Check it out—the backstage of our database magic! This diagram reveals the intricate web of connections between our database models. It's a snapshot of simplicity and power. But hey, there's a deeper story to each model. Take a closer peek to unravel their secrets and see how they all come together!
