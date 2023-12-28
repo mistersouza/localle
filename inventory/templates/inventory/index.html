@@ -1,5 +1,8 @@
 {% extends "base.html" %}
 {% block title %}Merch Story{% endblock %}
+{% block page_title %}
+Item Lowdown
+{% endblock %}
 {% block content %}
 <!-- Product section-->
 <section class="py-5">
@@ -114,7 +117,7 @@
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h2 class="fw-bolder fs-5">{{ item.name }}</h2>
+                            <h3 class="fw-bolder fs-5">{{ item.name }}</h3>
                             <!-- Product reviews-->
                             <div class="d-flex justify-content-center small text-warning mb-2">
                                 <i class="fa-solid fa-star"></i>
