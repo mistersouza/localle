@@ -97,7 +97,7 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
     - __One-Click Wonders:__ Quick buttons for the pros! Add items, run your store, peek into your inbox, or simply wave goodbye—all at the click of an icon.
     - __Cart at a Glance:__ Oh, and that cart? It's right there, visible and ready to go, for those bigger screens. Shopping made easy!
 
-![Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_home.png)
+![Navbar dropdown](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_navbar-dropdown.png)
 
 - Hero
     - __Header Display:__ A dark-themed header section with padding and margin adjustments for styling purposes.
@@ -106,7 +106,8 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
     - __Page Title:__ For other pages, a centered title and a brief description are shown in white text. The title and description can be customized using template blocks.
 
 ![Hero, Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-home)
-![Hero, Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-items)
+![Hero, Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero_items)
+
 - Footer
     - A standard footer section with dark background styling and padding to ensure visual consistency.
 
@@ -114,9 +115,9 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ▷ The Localle homepage welcomes you with a stylish flair and a touch of functionality! The design embodies a clean, crisp aesthetic while promising a bustling marketplace experience. This digital hub invites you with a bold "localle ))" header, hinting at the local treasures you're about to explore. Featuring an assortment of products, from telephones to iMacs, each neatly displayed with vibrant images and concise details, it's a snapshot of what's in store. Categories like "Fancy" and "Special" beckon exploration, teasing unique offerings. As you scroll through this vibrant page, you'll encounter a seamless blend of style and substance, a sneak peek into the vibrant world of Localle. And don't miss the cart icon, a subtle reminder that your purchases are just a click away.
 
-![Navbar dropdown](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_navbar-dropdown.png)
+![Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_home.png)
 
-### All items
+### All in
 
 ▷ All items page's packed with cool features like a navigation bar, a search function, and a bunch of trendy products displayed with images and prices. Plus, there are different categories like "Fancy," "Popular," "Sale," and "Special" to help you find just what you're looking for. 
 
