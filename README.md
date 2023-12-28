@@ -106,7 +106,7 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
     - __Page Title:__ For other pages, a centered title and a brief description are shown in white text. The title and description can be customized using template blocks.
 
 ![Hero, Home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-home)
-![Hero, Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero_items)
+![Hero, Items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_hero-items)
 
 - Footer
     - A standard footer section with dark background styling and padding to ensure visual consistency.
@@ -125,7 +125,7 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ### The devil's in the details
 
-▷ Get ready for the Product Section—it's the star of the show! Packed with product cards showcasing top-notch images, prices, and the irresistible "add to cart" button (still baking). And when you're logged in, revel in the editing and delete functionalities. Switch gears to the Related Items Section for captivating cards highlighting jeans, a retro telephone, and a trendy tee. Keep an eye out for those sale badges—total AF. 
+▷ Get ready for the Item detail — it's the star of the show! Packed with product cards showcasing top-notch images, prices, and the irresistible "add to cart" button (still baking). And when you're logged in, revel in the editing and delete functionalities. Switch gears to the Related Items Section for captivating cards highlighting jeans, a retro telephone, and a trendy tee. Keep an eye out for those sale badges. 
 
 ![Item detail](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_item.png)
 
@@ -151,10 +151,15 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 
 ## Coming Soon: The Cool Features!
 
-About page
-star reviews
-cart
-payment
+▷ We're cooking up some cool stuff! Currently in the code lab, we've got some features brewing as we speak. And that's not all! Our UX exploration is uncovering needs and desires, fueling the fire for even more awesome things to come. Right now, our focus is on bringing to life:
+
+- __About Page:__ Curious about us? Coming soon is an About page where you'll dive into our story, mission, and the people behind the scenes.x
+- __Store:__ We're crafting a sleek storefront complete with a dashboard for easy management and CRUD (Create, Read, Update, Delete) superpowers to handle your inventory like a boss.
+- __Inbox:__ Get ready for an inbox overhaul! Stay connected and organized with a centralized hub for your messages and notifications.
+- __Ratings:__ It's all about feedback! We're adding a ratings system to let you share your experiences and check out what others have to say.
+- __Reviews:__ Share your thoughts! Leave detailed reviews to help others make informed decisions about the products they're eyeing.
+- __Cart:__ Shopping made easy! Your virtual cart will be your buddy for collecting and managing the items you're eager to take home.
+- __Payment:__ Say hello to convenience! We're ramping up for seamless and secure payment options to make your checkout process a breeze.
 
 ### Inside the Data Universe 
 
@@ -272,7 +277,7 @@ payment
 ### Thanks
 
 - David Calikes, Code Institute Cohort Facilitator.
-  - Positive and Uplifting. David's Always available and boosts my confidence time we chat.
+  - Positive and Uplifting. David's Always available and boosts my confidence everytime we chat.
 - Oluwafemi Medale, Code Institute Mentor.
   - Bugs terminator. He always make times, when there's no time at all.
 - Chat GPT, Mister know it all.
