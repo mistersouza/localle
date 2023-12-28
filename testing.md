@@ -7,12 +7,12 @@ Back to [README.md](/README.md)
 ### HTML
 |Page|Validator|Result|
 | --- | --- | --- |
-| Home |![home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-home.png) | <mark>PASS<mark> |
-| All Items |![All items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validador-html-items.png) | <mark>PASS<mark> |
-| Item |![Item](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-item.png) | <mark>PASS<mark> |
-| Add & Edit Item |![Create Listing](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-add.png) | <mark>PASS<mark> |
-| Log In |![Log In](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-login.png) | <mark>PASS<mark> |
-| Sign Up |![Sign Up](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-signup.png) | <mark>PASS<mark> |
+| Home |![home](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-home.png) | <mark>✅<mark> |
+| All Items |![All items](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validador-html-items.png) | <mark>✅<mark> |
+| Item |![Item](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-item.png) | <mark>✅<mark> |
+| Add & Edit Item |![Create Listing](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-add.png) | <mark>✅<mark> |
+| Log In |![Log In](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-login.png) | <mark>✅<mark> |
+| Sign Up |![Sign Up](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_validator-html-signup.png) | <mark>✅<mark> |
 
 ### CSS
 
