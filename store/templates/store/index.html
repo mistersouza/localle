@@ -66,12 +66,12 @@ Time to declutter
                         </div>
                         <!-- Item actions-->
                         <div class="d-flex justify-content-around mb-3">
-                            <div class="">
+                            <div class="d-none">
                                 <a href="{% url 'inventory:edit_item' item.id %}" class="btn btn-outline-dark mt-auto" title="Edit item" href="#">
                                     <i class="fa-regular fa-pen-to-square"></i>
                                 </a>
                             </div>
-                            <div class="">
+                            <div class="d-none">
                                 {% if item.is_sold %}
                                 <a class="btn btn-outline-dark mt-auto" title="Item sold" href="#">
                                     <i class="fa-solid fa-piggy-bank"></i>
@@ -85,7 +85,7 @@ Time to declutter
                                 </a>
                                 {% endif %}
                             </div>
-                            <div class="">
+                            <div class="d-none">
                                 <a class="btn btn-outline-dark mt-auto" title="Delete item" href="{% url 'inventory:delete_item' item.id %}">
                                     <i class="fa-regular fa-trash-can"></i>
                                 </a>

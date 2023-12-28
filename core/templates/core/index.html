@@ -30,7 +30,7 @@ Welcome
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">{{ item.name }}</h5>
+                            <h2 class="fw-bolder fs-5">{{ item.name }}</h2>
                             <!-- Product reviews-->
                             <div class="d-flex justify-content-center small text-warning mb-2">
                                 {% for star in stars %}
@@ -70,13 +70,12 @@ Welcome
                     </div>
                     <!-- Category image -->
                     <a href="{% url 'inventory:all_items' %}?category={{ category.id }}">
-                        {% if "placeholder" in category.featured_image.url %}
-                        <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                            alt="placeholder image">
-                        {% else %}
-                        <img class="card-img-top" src=" {{ category.featured_image.url }}"
-                            alt="{{ category.name }} image">
-                        {% endif %}
+                        <img 
+                            class="card-img-top" 
+                            src="{{ category.featured_image.url }}"
+                            alt="{{ category.name }} image"
+                            loading="lazy"
+                        />
                     </a>
                     <div class="card-body">
                         <!-- Number of items in the category -->

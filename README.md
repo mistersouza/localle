@@ -301,7 +301,7 @@ All the tests in one [place]()
 
 ### Borrowed Brilliance
 
-- Code With Stein [ nline Marketplace ](https://youtu.be/ZxMB6Njs3ck?si=PwGJLUVuzSV4XKiB)
+- Code With Stein [Online Marketplace](https://youtu.be/ZxMB6Njs3ck?si=PwGJLUVuzSV4XKiB)
 - Code Institute's [I Think Therefore I Blog ](https://github.com/mistersouza/django-blog.git)
 
 ### Supercharged Support

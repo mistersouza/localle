@@ -1,5 +1,6 @@
 {% load static %}
 {% load i18n %}
+{% load cloudinary %}
 <!-- account urls -->
 {% url 'account_login' as login_url %}
 {% url 'account_signup' as signup_url %}
@@ -32,13 +33,12 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{% static 'css/main.css' %}" rel="stylesheet" />
     </head>
-
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5 d-flex justify-content-between align-items-center">
                 <a class="navbar-brand" href="#!">localle ))</a>
-                <!-- Cart button -->
-                <form class="d-flex d-lg-none">
+                <!-- Cart button | d-flex d-lg-none (only visible on small screens)-->
+                <form class="d-none">
                     <button class="btn mb-0" type="submit">
                         <span class="badge bg-dark text-white ms-1 p-2 rounded-pill">
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -56,7 +56,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link {% if request.path == home_url %}active{% endif %}"
                                 aria-current="page" href="{% url 'core:index' %}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link {% if request.path == about_url %}active{% endif %}"
+                        <li class="d-none nav-item"><a class="nav-link {% if request.path == about_url %}active{% endif %}"
                                 href="#!">About</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
@@ -72,7 +72,7 @@
                         <li><hr class="item-divider d-lg-none" /></li>
                         <li class="nav-item d-lg-none"><a href="{% url 'inventory:add_item' %}" class="nav-link">Sell stuff</a></li>
                         <li class="nav-item d-lg-none"><a href="{% url 'store:index' %}" class="nav-link">Your store</a></li>
-                        <li class="nav-item d-lg-none"><a href="#!" class="nav-link">Inbox</a></li>
+                        <li class="nav-item d-lg-none"><a href="#!" class="d-none nav-link">Inbox</a></li>
                         <li><hr class="item-divider d-lg-none" /></li>
                         <li class="nav-item d-lg-none">
                             <form method="post" action="{% url 'account_logout' %}" class="d-flex">
@@ -109,7 +109,7 @@
                             </a>
                         </form>
                         <form class="d-none d-lg-flex align-items-center me-3">
-                            <a href="#!" title="Inbox" class="btn btn-outline-dark mb-lg-0">
+                            <a href="#!" title="Inbox" class="d-none btn btn-outline-dark mb-lg-0">
                                 <i class="fa-solid fa-inbox"></i>
                             </a>
                         </form>
@@ -130,9 +130,9 @@
                         </form>
                         {% endif %}
                     </div>
-                    <!-- Cart button (visible for larger screens) -->
-                    <form class="d-none d-lg-flex">
-                        <button class="btn mb-0" type="submit">
+                    <!-- Cart button | d-lg-flex-->
+                    <form class="d-none">
+                        <button class="btn mb-0" type="submit" aria-label="Cart">
                             <span class="badge bg-dark text-white ms-1 p-2 rounded-pill">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </span>

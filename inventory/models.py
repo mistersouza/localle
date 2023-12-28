@@ -7,7 +7,10 @@ from cloudinary.models import CloudinaryField
 # Models
 class Category(models.Model):
     name = models.CharField(max_length=255)
-    featured_image = CloudinaryField('image', default='placeholder')
+    featured_image = CloudinaryField(
+        'image',
+        default='https://dummyimage.com/450x300/dee2e6/6c757d.jpg'
+        )
 
     class Meta:
         ordering = ['name']

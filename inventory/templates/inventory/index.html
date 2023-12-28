@@ -18,13 +18,21 @@
             {% endfor %}
         {% endif %}
         <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{ item.featured_image.url }}"
-                    alt="{{ item.name }}" /></div>
+            <div class="col-md-6">
+                <img 
+                    class="card-img-top mb-5 mb-md-0" 
+                    src="{{ item.featured_image.url }}"
+                    alt="{{ item.name }}" 
+                    crop='scale'
+                    fetch_format="auto"
+                    type="fetch" 
+                />
+            </div>
             <div class="col-md-6">
                 <div class="mb-1">
                     {% if item.created_by == request.user %}
                     <span class="text-uppercase">Own</span>
-                    <a href="http://" title="I'm here for you :)">
+                    <a href="#!" title="I'm here for you :)">
                         <i class="fa-solid fa-pencil fs-5 ms-1"></i>
                     </a>
                     {% else %}
@@ -34,7 +42,7 @@
                     </a>
                     {% endif %}
                 </div>
-                <h1 class="display-5 fw-bolder">{{ item.name }}</h1>
+                <h2 class="display-5 fw-bolder">{{ item.name }}</h2>
                 <div class="fs-5 mb-5">
                     {% if item.on_sale %}
                     <span class="text-decoration-line-through">${{ item.original_price }}</span>
@@ -109,7 +117,7 @@
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">{{ item.name }}</h5>
+                            <h2 class="fw-bolder fs-5">{{ item.name }}</h2>
                             <!-- Product reviews-->
                             <div class="d-flex justify-content-center small text-warning mb-2">
                                 <i class="fa-solid fa-star"></i>

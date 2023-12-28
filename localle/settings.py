@@ -1,6 +1,10 @@
 import os
 import dj_database_url
 from pathlib import Path
+# cloudinary
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 if os.path.isfile('env.py'):
     import env
@@ -96,6 +100,14 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://*.gitpod.io"
 ]
+
+# Cloudinary
+cloudinary.config( 
+  	cloud_name = str(os.environ.get("CLOUDINARY_CLOUD_NAME")),
+  	api_key = str(os.environ.get("CLOUDINARY_API_KEY")),
+  	api_secret = str(os.environ.get("CLOUDINARY_SECRET_API_KEY")),
+    secure = True,
+)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

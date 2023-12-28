@@ -38,13 +38,20 @@
                     {% endif %}
                     <!-- Product image-->
                     <a href="{% url 'inventory:index' item.id %}">
-                        <img class="card-img-top" src="{{ item.featured_image.url }}" alt="{{ item.name }}" />
+                        <img 
+                            class="card-img-top" 
+                            src="{{ item.featured_image.url }}" 
+                            alt="{{ item.name }}"
+                            crop='scale'
+                            fetch_format="auto"
+                            type="fetch" 
+                        />
                     </a>
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">{{ item.name }}</h5>
+                            <h2 class="fw-bolder fs-5">{{ item.name }}</h2>
                             <!-- Product reviews-->
                             <div class="d-flex justify-content-center small text-warning mb-2">
                                 {% for star in stars %}
