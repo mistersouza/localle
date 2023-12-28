@@ -290,16 +290,21 @@ All the tests in one [place]()
 ![Config Vars](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_heroku-vars.png)
 - Finally hit that deploy button and let the awesomeness unfold
 
-## Credits
+## Big Ups
 
 ▷ Sure, I've been the lone wolf, architecting this whole thing—planning, designing, and coding away. But truth be told, I owe a lot to the squad that's had my back. And you know what? I wouldn't have it any other way. The teamwork vibe in coding is what makes this journey epic, and I'm all about embracing that collaborative spirit. Cheers to coding camaraderie!
 
-### Inpired by
+### Bits 'n' Bobs 
 
-- Code With Stein [ Online Marketplace ](https://youtu.be/ZxMB6Njs3ck?si=PwGJLUVuzSV4XKiB)
+- I've scavenged all the beautiful free images and pictures from [Unsplash](https://unsplash.com/)
+- I got this project rolling with a boost from [Start Bootstrap](https://startbootstrap.com/)
+
+### Borrowed Brilliance
+
+- Code With Stein [ nline Marketplace ](https://youtu.be/ZxMB6Njs3ck?si=PwGJLUVuzSV4XKiB)
 - Code Institute's [I Think Therefore I Blog ](https://github.com/mistersouza/django-blog.git)
 
-### Thanks
+### Supercharged Support
 
 - David Calikes, Code Institute Cohort Facilitator.
   - Positive and Uplifting. David's Always available and boosts my confidence everytime we chat.
