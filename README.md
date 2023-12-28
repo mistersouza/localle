@@ -4,8 +4,6 @@
 
 ▷ Alright, picture this: Localle is on a mission to amp up your neighborhood vibes! We're kicking things off by building a marketplace where you can connect with your neighbors, support local businesses, and buy or sell cool stuff right from your area. Imagine a hub where the coolest finds and local gems are just a click away. We're on a mission to make your neighborhood the go-to spot for connections, sales, and that awesome community vibe. Join us in this exciting venture as we craft the first step towards an epic neighborhood experience!
 
-![Breakpoints](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_breakpoints.png)
-
 Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com/)
 
 ## Planning & Development
@@ -89,6 +87,8 @@ Started with a free template to hustle up our MVP launch - gotta nail those must
 ## Up Next: What's in Store!
 
 ▷ Hey, listen up! We're all about making waves in the community and doing it right. We focused on the essentials, cherry-picking the must-haves that match most needs to get our MVP out the door on time.
+
+![Design breakpoints](https://github.com/mistersouza/localle/blob/main/static/assets/images/localle_breakpoints.png)
 
 ### Across the Whole Site
 
