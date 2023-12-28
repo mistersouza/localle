@@ -6,11 +6,15 @@
 
 Check it live out [here.](https://localle-marketplace-0ed3b7e33a22.herokuapp.com/)
 
+## Content Guide 🗺️
+
+▷ Feel free to cruise through using the content button up there in the top right corner—it's like a breeze for getting around 
+
 ## Planning & Development
 
 ### Business Strategy 🚀
 
-Introducing Localle Marketplace's Game Plan! It's all about rocking our unique vibe and unlocking doors to some serious growth and impact.
+▷ Introducing Localle Marketplace's Game Plan! It's all about rocking our unique vibe and unlocking doors to some serious growth and impact.
 
 - Boosting Local Swagger: Let's amp up our street cred by teaming up with local legends and getting our name out there in the community.
 
