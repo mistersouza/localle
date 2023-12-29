@@ -61,19 +61,10 @@ Test Results CSS ❌
 |Navbar|Click on Signup icon|Redirect to Singup |Pass|Navbar present on all pages |
 |Navbar|Click on Log Out |Log user out, redirect to Home|Pass|Navbar present on all pages |
 |Banner|Open Home page. Ensure the banner loads|Hero section loads as it should |Pass| |
-|Search form|Open the Home page. Ensure the search form section loads as it should|Search form section loads as it should |Pass| |
-||Click on each input field. Ensure all choices are loaded.|All input fields appear as they should. |Pass| |
-
-||Select a max year. Ensure the min year cannot exceed the max year|All values of min year that exceed the max year are disabled |Pass| |
-||Select min year. Ensure the max year cannot be less than the max year|All values of the max year that are below the min year are disabled |Pass| |
-||Select max price. Ensure the min price cannot exceed the max price|All values of min price which exceed the max price are disabled |Pass| |
-||Select min price. Ensure the max price cannot be less than the max price|All values of max price which are below min price are disabled |Pass| |
-||Click on the search button. Ensure the user is redirected to the listings page|The user is redirected to the listings page with accurate results |Pass| |
-|New items|Open the Home page. Scroll down to recent listings. Ensure the only the 8 most recent items are showon|The most recent listings are displayed |Pass| |
+|Navbar| Click add icon. Ensure the details displayed add item form |Link works and form is displayed alright |Pass| |
 ||Open the Create Listing page and create a listing. Ensure it shows as first in the most recent listings section |The added listing is displayed as most recent |Pass| |
-|Listing Card| Click on the listing card. Ensure it redirects to the correct single listing page |When clicked each card redirects to the correct single listing page |Pass| |
-|| Click on the listing card button. Ensure it redirects to the correct single listing page |When clicked each card button redirects to the correct single listing page |Pass| |
-|| Go to the Create Listings page and create a new listing. Ensure the details displayed on the card are accurate |The information displayed on the card is accurate |Pass| |
+|Item Card| Click on the item card. Ensure it redirects to the correct item page |When clicked each card redirects to the correct item page |Pass| |
+|| Click on the item card. Ensure it redirects to the correct single listing page |When clicked each card button redirects to the correct single listing page |Pass| |
 |Footer|Ensure each one opens the correct page in a new tab | |Pass| |
 
 - Items Page 
