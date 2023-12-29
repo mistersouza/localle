@@ -37,7 +37,7 @@ def all_items(request):
 
     context = {
         'categories': categories,
-        'category': category,
+        'category': category if isinstance(category, int) else 4 if category == 'Popular' else None,
         'items': items,
         'search': search,
     }

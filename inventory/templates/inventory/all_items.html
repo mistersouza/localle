@@ -7,7 +7,7 @@
             <div class="col-12 col-md-8 col-lg-5">
                 <ul class="list-inline d-flex justify-content-center">
                     {% for category in categories %}
-                    <li class="btn list-inline-item shadow-none{% if category.id == category_id %} active{% endif %}">
+                    <li class="btn list-inline-item shadow-none{% if category.id == category %} active{% endif %}">
                         <a class="text-decoration-none text-dark"
                             href="{% url 'inventory:all_items' %}?category={{ category.id }}">
                             {{ category.name }}

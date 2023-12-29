@@ -3,9 +3,11 @@ from django.http import HttpResponse
 
 from inventory.models import Category, Item
 
-
 # Views
 def index(request):
+    '''
+    Display the main landing page with the newest arrivals and categories.
+    '''
     # Get newest 8 arrivals
     items = Item.objects.filter(is_sold=False).order_by('-created_at')[:8]
     categories = Category.objects.exclude(name='Sale')
