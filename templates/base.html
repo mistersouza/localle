@@ -64,8 +64,8 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a href="{% url 'inventory:all_items' %}" class="dropdown-item">All Items</a></li>
                                 <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                                <li><a class="dropdown-item" href="{% url 'inventory:all_items' %}?category=Popular">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="{% url 'inventory:all_items' %}">New Arrivals</a></li>
                             </ul>
                         </li>
                         {% if request.user.is_authenticated %}

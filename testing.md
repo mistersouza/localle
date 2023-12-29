@@ -18,7 +18,7 @@ Back to [README.md](README.md)
 
 ▷ While the live site's running smooth without any noticeable glitches, I'm wrestling with Bootstrap 5 variables to make them play nice with the CSS validation engine. It's a bit of a challenge, but I'm diving in to crack the code
 
-Test Results CSS ==FAIL==
+Test Results CSS ❌
 
 ### JavaScript
 

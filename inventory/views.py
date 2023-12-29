@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.db.models import Q
@@ -8,27 +9,45 @@ from .forms import AddItemForm, EditItemForm
 
 # Views
 def all_items(request):
+    '''
+    Display items based on category and search parameters,
+    showing only items added within the past two weeks if no specific category 
+    is requested. If a category is specified as 'Popular', it displays popular items.
+    '''
     categories = Category.objects.all()
-    category_id = int(request.GET.get('category', 0))
+    category = request.GET.get('category', 0)
     items = Item.objects.filter(is_sold=False)
     search = request.GET.get('search', '')
 
-    if category_id:
-        items = items.filter(category=category_id)
+    if category:
+        try:
+            # if id
+            items = items.filter(category=int(category))
+        except ValueError:
+            # if name
+            if category == 'Popular':
+                items = items.filter(category__name=category)
+            else: 
+                # ChatGTP snippet
+                two_weeks_time = datetime.now() - timedelta(weeks=2)
+                items = items.filter(created_at__gte=two_weeks_time)
 
     if search:
-        items = items.filter(Q(name__icontains=search) | Q(description__icontains=search)) 
+        items = items.filter(Q(name__icontains=search) | Q(description__icontains=search))
 
     context = {
         'categories': categories,
-        'category_id': category_id,
+        'category': category,
         'items': items,
-        'search': search, 
+        'search': search,
     }
     return render(request, 'inventory/all_items.html', context)
 
 
 def item(request, item_id):
+    '''
+    Display details of a specific item along with related items.
+    '''
     item = get_object_or_404(Item, id=item_id)
     related_items = Item.objects.filter(category=item.category, is_sold=False).exclude(
         id=item.id)
@@ -43,6 +62,9 @@ def item(request, item_id):
 
 @login_required
 def add_item(request):
+    '''
+    Handle the addition of a new item to the inventory.
+    '''
     if request.method == 'POST':
         form = AddItemForm(request.POST, request.FILES)
 
@@ -65,6 +87,9 @@ def add_item(request):
 
 @login_required
 def edit_item(request, item_id):
+    '''
+    Handle the addition of a new item to the inventory.
+    '''
     item = get_object_or_404(Item, id=item_id, created_by=request.user)
     if request.method == 'POST':
         form = EditItemForm(request.POST, request.FILES, instance=item)
@@ -87,6 +112,9 @@ def edit_item(request, item_id):
 
 @login_required
 def delete_item(request, item_id):
+    '''
+    Handle the addition of a new item to the inventory.
+    '''
     try:
         item = Item.objects.get(id=item_id, created_by=request.user)
         item.delete()
